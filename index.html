@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+    <body>
+        <main>
+            <header><h1>Verificador de Idade</h1></header>
+            <section>
+                <div>
+                    <p>
+                        <label for="nasc">Ano de nascimento:</label> <input type="number" name="nasc" id="nasc" placeholder="Digite um ano" autofocus>
+                        <input type="button" value="Conferir" onclick="conferir()">
+                    </p>
+                </div>
+                <p>
+                    Sexo:
+                       <label for="masc">Masculino:</label> <input type="radio" name="radio" id="masc">
+                       <label for="femi">Feminino:</label> <input type="radio" name="radio" id="femi">
+                </p>
+               <div id="res">
+                RESULTADO...
+               </div>
+            </section>
+        </main>
+        <footer>&copy; <a href="https://www.linkedin.com/in/saulo-nascimento-2b01653b2/" target="_blank">Saulo-Nascimento</a></footer>
+    </body>
+</html>
