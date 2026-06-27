@@ -3,7 +3,7 @@ function conferir() {
             let ano = data.getFullYear();
             let nasc = window.document.getElementById('nasc');
             let res = window.document.getElementById('res');
-            if (Number(nasc.value) == 0 || Number(nasc.value) > ano) {
+            if (Number(nasc.value) === 0 || Number(nasc.value) > ano) {
                 window.alert('[ERRO] Verifique os dados e tente novamente!');
             }
             else {
