@@ -3,7 +3,7 @@ function conferir() {
             let ano = data.getFullYear();
             let nasc = window.document.getElementById('nasc');
             let res = window.document.getElementById('res');
-            if (Number(nasc.value) === 0 || Number(nasc.value) > ano) {
+            if (Number(nasc.value) === 0 || Number(nasc.value) > ano ) {
                 window.alert('[ERRO] Verifique os dados e tente novamente!');
             }
             else {
@@ -14,7 +14,7 @@ function conferir() {
                 img.setAttribute('id', 'foto');
                 if (sexo[0].checked) {
                     gênero = 'homem';
-                    if (idade >= 0 && idade < 12) {
+                     if (idade >= 0 && idade < 12) {
                         img.src = 'homem-crianca.jpg';
                     }
                     else if (idade >= 12 && idade < 18) {
